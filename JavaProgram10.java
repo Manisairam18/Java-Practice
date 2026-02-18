@@ -11,12 +11,12 @@ public class Main {
             }
 
             else if (++i % 3 == 0) {
-                System.out.println("A");
+                System.out.print("A");
                 a += i + i;
             }
 
             else if (--i % 3 == 0) {
-                System.out.println("B");
+                System.out.print("B");
                 a += i + 1;
             }
 
@@ -30,3 +30,7 @@ public class Main {
         System.out.println(a);
     }
 }
+
+
+Output : A 4 
+         B 15
